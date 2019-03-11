@@ -67,7 +67,7 @@ Now we can install Composer
 
 Firstly, use this command
 
-    sudo ln -s /opt/lampp/bin/php /usr/local/bin/php
+    sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
 Then use this command. This command similar to fisrt one this help us to enable the php version from xampp globllay.
 
@@ -98,7 +98,7 @@ After installation aaa its nearly to done! Now open XAMPP working directory beca
 
 OWWWW do not forget you should set working directory to 775 but how? Do not worry be Happy :) and use the following command
 
-    chmod -R 775 "Working-Direcory-Name"
+    chmod -R 777 "Working-Direcory-Name"
 
 Congratulations! Everything Done!
 
