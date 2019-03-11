@@ -101,3 +101,12 @@ OWWWW do not forget you should set working directory to 775 but how? Do not worr
     chmod -R 775 "Working-Direcory-Name"
 
 Congratulations! Everything Done!
+
+Note: When I wrote this file I used these websites. Thank you for who help to community to solve problems and other things.
+
+Websites: 
+
+    For Composer: https://askubuntu.com/questions/604522/install-composer-and-configure-with-xampp
+    For Laravel:
+    - https://laravel.com/docs/4.2
+    - https://stackoverflow.com/questions/23411520/how-to-fix-error-laravel-log-could-not-be-opened
