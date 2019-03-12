@@ -17,7 +17,7 @@ After that,
 When your installation done, now we can change the directory of xampp. Whey we need to change?
 Because if we do not change, defined working directory make some difficulty.
 
-Now go to your homme directory and generate a folder for setting up to working directory. I prefer 'www' name to this folder. After generation open terminal and go to this directory: 
+Now go to your home directory and generate a folder for setting up to working directory. I prefer 'www' name to this folder. After generation open terminal and go to this directory: 
 
     cd /opt/lampp/etc
 
@@ -69,11 +69,11 @@ Firstly, use this command
 
     sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
-Then use this command. This command similar to fisrt one this help us to enable the php version from xampp globllay.
+Then use this command. This command similar to first one this help us to enable the php version from xampp globllay.
 
     sudo curl -sS https://getcomposer.org/installer | php
 
-After all of this finally type this command to your terminal 
+Finally type this command to your terminal and move to composer.phar file.
 
     sudo mv composer.phar /usr/local/bin/composer
 
@@ -90,17 +90,20 @@ This time our job is too easy according to Laravel Website documentation:
 Type this command your terminal
 
     composer global require "laravel/installer=~1.1"
+
 then hit enter!
 
 After installation aaa its nearly to done! Now open XAMPP working directory because time to try generating laravel project. Use the following command and generate project.
 
     composer create-project --prefer-dist laravel/laravel "Name of the Project"
 
-OWWWW do not forget you should set working directory to 775 but how? Do not worry be Happy :) and use the following command
+OWWWW do not forget you should set working directory to 777 but how? Do not worry be Happy :) and use the following command
 
     chmod -R 777 "Working-Direcory-Name"
 
 Congratulations! Everything Done!
+
+Do not forget to share your firends and give star to repostory!!! :)
 
 Note: When I wrote this file I used these websites. Thank you for who help to community to solve problems and other things.
 
