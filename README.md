@@ -113,3 +113,9 @@ Websites:
     For Laravel:
     - https://laravel.com/docs/4.2
     - https://stackoverflow.com/questions/23411520/how-to-fix-error-laravel-log-could-not-be-opened
+
+
+# About Installer
+Installer not tested yet. It may cause many problem. In the feature it will tested and problems may fix.
+
+Thanks for everything.
