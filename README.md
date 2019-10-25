@@ -69,7 +69,7 @@ Firstly, use this command
 
     sudo curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
 
-Then use this command. This command similar to first one this help us to enable the php version from xampp globllay.
+NOT: You can use this command too! Both are same. 
 
     sudo curl -sS https://getcomposer.org/installer | php
 
